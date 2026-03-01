@@ -1,0 +1,66 @@
+# -----------------------------------------------
+# Visual Studio
+# -----------------------------------------------
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# -----------------------------------------------
+# Build output folders (class library projects)
+# -----------------------------------------------
+Covenants.Models/bin/
+Covenants.Models/obj/
+Covenants.Common/bin/
+Covenants.Common/obj/
+Covenants.DAL/bin/
+Covenants.DAL/obj/
+Covenants.BLL/bin/
+Covenants.BLL/obj/
+Covenants.Scheduler/bin/
+Covenants.Scheduler/obj/
+
+# -----------------------------------------------
+# ASP.NET Website Bin — exclude only OUR built DLLs
+# (third-party DLLs are kept — Website projects need them)
+# -----------------------------------------------
+CovenantsWebApp/Bin/Covenants.Models.dll
+CovenantsWebApp/Bin/Covenants.Models.pdb
+CovenantsWebApp/Bin/Covenants.Common.dll
+CovenantsWebApp/Bin/Covenants.Common.pdb
+CovenantsWebApp/Bin/Covenants.DAL.dll
+CovenantsWebApp/Bin/Covenants.DAL.pdb
+CovenantsWebApp/Bin/Covenants.BLL.dll
+CovenantsWebApp/Bin/Covenants.BLL.pdb
+CovenantsWebApp/Bin/Covenants.Scheduler.dll
+CovenantsWebApp/Bin/Covenants.Scheduler.pdb
+
+# -----------------------------------------------
+# NuGet packages (105 MB — restore from packages.config)
+# -----------------------------------------------
+packages/
+!packages/repositories.config
+
+# -----------------------------------------------
+# ASP.NET temp / compiled output
+# -----------------------------------------------
+CovenantsWebApp/App_Data/*.mdf
+CovenantsWebApp/App_Data/*.ldf
+CovenantsWebApp/App_Data/*.sdf
+
+# -----------------------------------------------
+# Claude Code project files (local session data)
+# -----------------------------------------------
+.claude/
+
+# -----------------------------------------------
+# OS / misc
+# -----------------------------------------------
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.temp
+*.log
+*.cache

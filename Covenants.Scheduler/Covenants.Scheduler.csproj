@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>Covenants.Scheduler</RootNamespace>
+    <AssemblyName>Covenants.Scheduler</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Covenants.Models\Covenants.Models.csproj" />
+    <ProjectReference Include="..\Covenants.Common\Covenants.Common.csproj" />
+    <ProjectReference Include="..\Covenants.DAL\Covenants.DAL.csproj" />
+    <ProjectReference Include="..\Covenants.BLL\Covenants.BLL.csproj" />
+  </ItemGroup>
+</Project>

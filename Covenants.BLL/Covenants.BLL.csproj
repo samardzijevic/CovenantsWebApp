@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>Covenants.BLL</RootNamespace>
+    <AssemblyName>Covenants.BLL</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Covenants.Models\Covenants.Models.csproj" />
+    <ProjectReference Include="..\Covenants.Common\Covenants.Common.csproj" />
+    <ProjectReference Include="..\Covenants.DAL\Covenants.DAL.csproj" />
+  </ItemGroup>
+</Project>
